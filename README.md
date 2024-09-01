@@ -1,5 +1,13 @@
-### Hi there my name is Ahmad 
-## Am software engineering student
+# Hi, I'm [Ahmad] 👋
+
+I'm a Software Engineer with a passion for building scalable and efficient solutions. I'm currently learning web development, exploring both frontend and  technologies. My focus is on writing clean, maintainable code and continuously improving my skills.
+
+## What I do:
+- **Frontend:** JavaScript, React, HTML, CSS
+- **Tools:** Git
+
+
+
 
 <!--
 **lemix7/lemix7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
