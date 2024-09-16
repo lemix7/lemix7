@@ -1,4 +1,4 @@
- name: Lemix Waka
+name: Lemix Waka
 
 on: 
   push:
