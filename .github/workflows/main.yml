@@ -10,6 +10,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with: 
+            WAKATIME_API_KEY: ${{ secrets.waka_6dc56cfe-b6ca-40a8-96c4-91983e7fc86a }}
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+            SHOW_OS: "True"
+            SHOW_PROJECTS: "True"
+            SHOW_LANGUAGE: "True"
 
       - name: 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
         env:
