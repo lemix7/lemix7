@@ -3,7 +3,7 @@
 I'm a Software Engineer student with a passion for building scalable and efficient solutions. I'm currently learning web development, exploring both frontend and  technologies. My focus is on writing clean, maintainable code and continuously improving my skills.
 
 ## What I do:
-- **Frontend:** JavaScript, React, HTML, CSS
+- **Frontend:** JavaScript, React , HTML , CSS , Tailwind CSS
 - **Tools:** Git
 
 
