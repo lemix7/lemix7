@@ -6,8 +6,7 @@ I'm a Software Engineer student with a passion for building scalable and efficie
 - **Frontend:** JavaScript, React , HTML , CSS , Tailwind CSS
 - **Tools:** Git
 
-<!--START_SECTION:SHOW_LANGUAGE-->
-<!--END_SECTION:SHOW_LANGUAGE-->
+
 
 
 <!--
