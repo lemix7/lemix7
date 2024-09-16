@@ -8,6 +8,11 @@ I'm a Software Engineer student with a passion for building scalable and efficie
 
 
 
+<!--START_SECTION:SHOW_LANGUAGE-->
+<!--END_SECTION:SHOW_LANGUAGE-->
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <!--
 **lemix7/lemix7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
