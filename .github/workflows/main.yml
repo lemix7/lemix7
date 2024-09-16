@@ -1,0 +1,18 @@
+name: Lemix Waka
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: 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
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "Using GitHub Token"
+          # Example command that requires authentication
+          curl -H "Authorization: token $GH_TOKEN" https://api.github.com/user
