@@ -1,5 +1,5 @@
 ```aura width=800 height=360
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#071322', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#090909', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
     @keyframes orb-a { 0%, 100% { transform: translate(0, 0); opacity: 0.6; } 50% { transform: translate(28px, -22px); opacity: 0.9; } }
     @keyframes orb-b { 0%, 100% { transform: translate(0, 0); opacity: 0.5; } 50% { transform: translate(-22px, 18px); opacity: 0.75; } }
@@ -23,24 +23,24 @@
   <svg width="800" height="360" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="hg1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(34,211,238,0.55)" />
-        <stop offset="100%" stopColor="rgba(34,211,238,0)" />
+        <stop offset="0%" stopColor="rgba(210,210,210,0.55)" />
+        <stop offset="100%" stopColor="rgba(210,210,210,0)" />
       </radialGradient>
       <radialGradient id="hg2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(59,130,246,0.5)" />
-        <stop offset="100%" stopColor="rgba(59,130,246,0)" />
+        <stop offset="0%" stopColor="rgba(150,150,150,0.5)" />
+        <stop offset="100%" stopColor="rgba(150,150,150,0)" />
       </radialGradient>
       <radialGradient id="hg3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(56,189,248,0.35)" />
-        <stop offset="100%" stopColor="rgba(56,189,248,0)" />
+        <stop offset="0%" stopColor="rgba(185,185,185,0.35)" />
+        <stop offset="100%" stopColor="rgba(185,185,185,0)" />
       </radialGradient>
       <radialGradient id="hg4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(45,212,191,0.28)" />
-        <stop offset="100%" stopColor="rgba(45,212,191,0)" />
+        <stop offset="0%" stopColor="rgba(230,230,230,0.28)" />
+        <stop offset="100%" stopColor="rgba(230,230,230,0)" />
       </radialGradient>
       <radialGradient id="hg5" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(99,102,241,0.3)" />
-        <stop offset="100%" stopColor="rgba(99,102,241,0)" />
+        <stop offset="0%" stopColor="rgba(125,125,125,0.3)" />
+        <stop offset="100%" stopColor="rgba(125,125,125,0)" />
       </radialGradient>
     </defs>
     <ellipse id="hero-o1" cx="110" cy="310" rx="260" ry="200" fill="url(#hg1)" />
@@ -72,32 +72,32 @@
 
 
 ```aura width=800 height=260 link="https://github.com/lemix7/Oriva"
-<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#071322", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #17354a" }}>
-<svg width="800" height="260" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#22d3ee" stopOpacity="0.2"/><stop offset="100%" stopColor="#22d3ee" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#3b82f6" stopOpacity="0.18"/><stop offset="100%" stopColor="#3b82f6" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
-<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#83b5c8", marginBottom: 18 }}>ABOUT ME</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Building beyond the interface.</span><span style={{ fontSize: 16, color: "#b4cddd", lineHeight: 1.6 }}>I’m Ahmad Alosayli, a full-stack developer working with APIs, authentication, data, and AI. Currently building Oriva with Express and TypeScript.</span></div></div>
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#090909", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #292929" }}>
+<svg width="800" height="260" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#bdbdbd" stopOpacity="0.2"/><stop offset="100%" stopColor="#bdbdbd" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#777777" stopOpacity="0.18"/><stop offset="100%" stopColor="#777777" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a8a8a8", marginBottom: 18 }}>ABOUT ME</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Building beyond the interface.</span><span style={{ fontSize: 16, color: "#bfbfbf", lineHeight: 1.6 }}>I’m Ahmad Alosayli, a full-stack developer working with APIs, authentication, data, and AI. Currently building Oriva with Express and TypeScript.</span></div></div>
 ```
 
 ```aura width=800 height=240
-<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#071322", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #17354a" }}>
-<svg width="800" height="240" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#22d3ee" stopOpacity="0.2"/><stop offset="100%" stopColor="#22d3ee" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#3b82f6" stopOpacity="0.18"/><stop offset="100%" stopColor="#3b82f6" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
-<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#83b5c8", marginBottom: 18 }}>TECH STACK</span><span style={{ fontSize: 28, fontWeight: 600, color: "white", marginBottom: 24 }}>Tools behind the work.</span><div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #24516a", background: "#ffffff08", fontSize: 14, color: "#d2edf7" }}>TypeScript</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #24516a", background: "#ffffff08", fontSize: 14, color: "#d2edf7" }}>Python</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #24516a", background: "#ffffff08", fontSize: 14, color: "#d2edf7" }}>React</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #24516a", background: "#ffffff08", fontSize: 14, color: "#d2edf7" }}>Express</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #24516a", background: "#ffffff08", fontSize: 14, color: "#d2edf7" }}>FastAPI</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #24516a", background: "#ffffff08", fontSize: 14, color: "#d2edf7" }}>PostgreSQL</span></div></div></div>
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#090909", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #292929" }}>
+<svg width="800" height="240" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#bdbdbd" stopOpacity="0.2"/><stop offset="100%" stopColor="#bdbdbd" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#777777" stopOpacity="0.18"/><stop offset="100%" stopColor="#777777" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a8a8a8", marginBottom: 18 }}>TECH STACK</span><span style={{ fontSize: 28, fontWeight: 600, color: "white", marginBottom: 24 }}>Tools behind the work.</span><div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #393939", background: "#ffffff08", fontSize: 14, color: "#e5e5e5" }}>TypeScript</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #393939", background: "#ffffff08", fontSize: 14, color: "#e5e5e5" }}>Python</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #393939", background: "#ffffff08", fontSize: 14, color: "#e5e5e5" }}>React</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #393939", background: "#ffffff08", fontSize: 14, color: "#e5e5e5" }}>Express</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #393939", background: "#ffffff08", fontSize: 14, color: "#e5e5e5" }}>FastAPI</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #393939", background: "#ffffff08", fontSize: 14, color: "#e5e5e5" }}>PostgreSQL</span></div></div></div>
 ```
 
 ```aura width=800 height=195 link="https://ahmadalosayli.com"
-<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#071322", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #17354a" }}>
-<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#22d3ee" stopOpacity="0.2"/><stop offset="100%" stopColor="#22d3ee" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#3b82f6" stopOpacity="0.18"/><stop offset="100%" stopColor="#3b82f6" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
-<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#83b5c8", marginBottom: 18 }}>CONNECT / PORTFOLIO</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Explore my work ↗</span><span style={{ fontSize: 16, color: "#b4cddd", lineHeight: 1.6 }}>ahmadalosayli.com</span></div></div>
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#090909", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #292929" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#bdbdbd" stopOpacity="0.2"/><stop offset="100%" stopColor="#bdbdbd" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#777777" stopOpacity="0.18"/><stop offset="100%" stopColor="#777777" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a8a8a8", marginBottom: 18 }}>CONNECT / PORTFOLIO</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Explore my work ↗</span><span style={{ fontSize: 16, color: "#bfbfbf", lineHeight: 1.6 }}>ahmadalosayli.com</span></div></div>
 ```
 
 ```aura width=800 height=195 link="https://github.com/lemix7?tab=repositories"
-<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#071322", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #17354a" }}>
-<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#22d3ee" stopOpacity="0.2"/><stop offset="100%" stopColor="#22d3ee" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#3b82f6" stopOpacity="0.18"/><stop offset="100%" stopColor="#3b82f6" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
-<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#83b5c8", marginBottom: 18 }}>CONNECT / GITHUB</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Follow the code ↗</span><span style={{ fontSize: 16, color: "#b4cddd", lineHeight: 1.6 }}>Projects, experiments, and what I’m building next.</span></div></div>
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#090909", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #292929" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#bdbdbd" stopOpacity="0.2"/><stop offset="100%" stopColor="#bdbdbd" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#777777" stopOpacity="0.18"/><stop offset="100%" stopColor="#777777" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a8a8a8", marginBottom: 18 }}>CONNECT / GITHUB</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Follow the code ↗</span><span style={{ fontSize: 16, color: "#bfbfbf", lineHeight: 1.6 }}>Projects, experiments, and what I’m building next.</span></div></div>
 ```
 
 ### 📈 Contributions
 
-![Ahmad's contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=lemix7&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=ffffff&area=true&hide_border=true)
+![Ahmad's contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=lemix7&bg_color=090909&color=bfbfbf&line=bbbbbb&point=ffffff&area=true&hide_border=true)
 
 <sub>The contribution graph is provided by an external service and may occasionally be unavailable.</sub>
 
