@@ -23,24 +23,24 @@
   <svg width="800" height="360" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="hg1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(55,78,100,0.55)" />
-        <stop offset="100%" stopColor="rgba(55,78,100,0)" />
+        <stop offset="0%" stopColor="rgba(78,78,78,0.55)" />
+        <stop offset="100%" stopColor="rgba(78,78,78,0)" />
       </radialGradient>
       <radialGradient id="hg2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(60,67,75,0.5)" />
-        <stop offset="100%" stopColor="rgba(60,67,75,0)" />
+        <stop offset="0%" stopColor="rgba(67,67,67,0.5)" />
+        <stop offset="100%" stopColor="rgba(67,67,67,0)" />
       </radialGradient>
       <radialGradient id="hg3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(70,80,90,0.35)" />
-        <stop offset="100%" stopColor="rgba(70,80,90,0)" />
+        <stop offset="0%" stopColor="rgba(80,80,80,0.35)" />
+        <stop offset="100%" stopColor="rgba(80,80,80,0)" />
       </radialGradient>
       <radialGradient id="hg4" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(239,238,236,0.28)" />
         <stop offset="100%" stopColor="rgba(239,238,236,0)" />
       </radialGradient>
       <radialGradient id="hg5" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(45,55,65,0.3)" />
-        <stop offset="100%" stopColor="rgba(45,55,65,0)" />
+        <stop offset="0%" stopColor="rgba(55,55,55,0.3)" />
+        <stop offset="100%" stopColor="rgba(55,55,55,0)" />
       </radialGradient>
     </defs>
     <ellipse id="hero-o1" cx="110" cy="310" rx="260" ry="200" fill="url(#hg1)" />
@@ -73,7 +73,7 @@
 ```aura width=800 height=220
 <div style={{ display: 'flex', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', width: 564, padding: '28px 32px', background: '#000000', border: '1px solid #262626', borderRadius: 0, overflow: 'hidden' }}>
-<svg width="564" height="220" style={{ position: 'absolute', top: 0, left: 0 }}><defs><radialGradient id="about-green"><stop offset="0%" stopColor="#66B3FF" stopOpacity="0.22"/><stop offset="100%" stopColor="#66B3FF" stopOpacity="0"/></radialGradient></defs><ellipse cx="100" cy="150" rx="230" ry="180" fill="url(#about-green)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><circle cx="120" cy="110" r="72" fill="none" stroke="#efeeec" strokeOpacity="0.12"/><circle cx="120" cy="110" r="100" fill="none" stroke="#efeeec" strokeOpacity="0.07"/></svg>
+<svg width="564" height="220" style={{ position: 'absolute', top: 0, left: 0 }}><defs><radialGradient id="about-green"><stop offset="0%" stopColor="#b5b5b5" stopOpacity="0.22"/><stop offset="100%" stopColor="#b5b5b5" stopOpacity="0"/></radialGradient></defs><ellipse cx="100" cy="150" rx="230" ry="180" fill="url(#about-green)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><circle cx="120" cy="110" r="72" fill="none" stroke="#efeeec" strokeOpacity="0.12"/><circle cx="120" cy="110" r="100" fill="none" stroke="#efeeec" strokeOpacity="0.07"/></svg>
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column' }}><span style={{ fontSize: 11, letterSpacing: 3, color: '#a3a3a3', marginBottom: 12 }}>ABOUT</span><span style={{ fontSize: 28, fontWeight: 600, color: '#efeeec', lineHeight: 1.2 }}>Ahmad Alosayli</span><span style={{ fontSize: 28, fontWeight: 600, color: '#efeeec', lineHeight: 1.2 }}>Full-stack developer.</span><span style={{ fontSize: 13, color: '#b5b5b5', marginTop: 16 }}>I build web apps, backend APIs, and AI tools.</span><span style={{ fontSize: 12, color: '#a3a3a3', marginTop: 8 }}>Working with TypeScript, Python, React, and Express.</span></div>
 </div>
 <div style={{ display: 'flex', flexDirection: 'column', gap: 16, width: 220 }}>
@@ -84,7 +84,7 @@
 
 ```aura width=800 height=200
 <div style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#000000", borderRadius: 0, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #262626" }}>
-<svg width="800" height="200" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#66B3FF" stopOpacity="0.2"/><stop offset="100%" stopColor="#66B3FF" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#404b58" stopOpacity="0.18"/><stop offset="100%" stopColor="#404b58" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<svg width="800" height="200" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#b5b5b5" stopOpacity="0.2"/><stop offset="100%" stopColor="#b5b5b5" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#484848" stopOpacity="0.18"/><stop offset="100%" stopColor="#484848" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
 <div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a3a3a3", marginBottom: 18 }}>STACK</span><span style={{ fontSize: 22, fontWeight: 600, color: "#efeeec", marginBottom: 18 }}>Tools behind the work.</span><div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #333333", background: "#141414", fontSize: 14, color: "#efeeec" }}>TypeScript</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #333333", background: "#141414", fontSize: 14, color: "#efeeec" }}>Python</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #333333", background: "#141414", fontSize: 14, color: "#efeeec" }}>React</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #333333", background: "#141414", fontSize: 14, color: "#efeeec" }}>Express</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #333333", background: "#141414", fontSize: 14, color: "#efeeec" }}>FastAPI</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #333333", background: "#141414", fontSize: 14, color: "#efeeec" }}>PostgreSQL</span></div></div></div>
 ```
 
