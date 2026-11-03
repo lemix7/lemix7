@@ -77,29 +77,32 @@ I'm Ahmad Alosayli, a full-stack developer interested in the systems behind the 
 
 I'm currently working on **[Oriva](https://github.com/lemix7/Oriva)** with Express and TypeScript. My other projects explore document-based AI and the backend infrastructure for social applications.
 
-### ⚙️ Tools I work with
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Express](https://img.shields.io/badge/Express-181717?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+```aura width=800 height=240
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="240" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>TECH STACK</span><span style={{ fontSize: 28, fontWeight: 600, color: "white", marginBottom: 24 }}>Tools behind the work.</span><div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #383841", background: "#ffffff08", fontSize: 14, color: "#dddde5" }}>TypeScript</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #383841", background: "#ffffff08", fontSize: 14, color: "#dddde5" }}>Python</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #383841", background: "#ffffff08", fontSize: 14, color: "#dddde5" }}>React</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #383841", background: "#ffffff08", fontSize: 14, color: "#dddde5" }}>Express</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #383841", background: "#ffffff08", fontSize: 14, color: "#dddde5" }}>FastAPI</span><span style={{ padding: "9px 18px", borderRadius: 100, border: "1px solid #383841", background: "#ffffff08", fontSize: 14, color: "#dddde5" }}>PostgreSQL</span></div></div></div>
+```
 
----
+### Selected projects
 
-### 🚀 Selected projects
+```aura width=800 height=195 link="https://github.com/lemix7/Oriva"
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>01 / EXPRESS / TYPESCRIPT</span><span style={{ fontSize: 32, fontWeight: 600, color: "white", marginBottom: 12 }}>Oriva ↗</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.5 }}>My current backend project, built with Express and TypeScript.</span></div></div>
+```
 
-**[Oriva →](https://github.com/lemix7/Oriva)**  
-My current backend project, built with Express and TypeScript.
+```aura width=800 height=195 link="https://github.com/lemix7/RAG-LMX"
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>02 / AI / RETRIEVAL / FULL-STACK</span><span style={{ fontSize: 32, fontWeight: 600, color: "white", marginBottom: 12 }}>RAG-LMX ↗</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.5 }}>Document-based AI chat with isolated data for each user.</span></div></div>
+```
 
-**[RAG-LMX →](https://github.com/lemix7/RAG-LMX)**  
-A multi-user AI application for uploading documents and asking questions grounded in their content, with isolated data for each user.
-
-**[Scrolla →](https://github.com/lemix7/Scrolla)**  
-A FastAPI backend for social applications, covering authentication, media uploads, posts, and chronological feeds.
-
----
+```aura width=800 height=195 link="https://github.com/lemix7/Scrolla"
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>03 / PYTHON / FASTAPI / REST API</span><span style={{ fontSize: 32, fontWeight: 600, color: "white", marginBottom: 12 }}>Scrolla ↗</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.5 }}>Authentication, media uploads, posts, and chronological feeds.</span></div></div>
+```
 
 ### 🔗 Connect
 
