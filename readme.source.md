@@ -71,12 +71,11 @@
 ```
 
 
-### 🧠 About me
-
-I'm Ahmad Alosayli, a full-stack developer interested in the systems behind the interface: APIs, authentication, data, and AI.
-
-I'm currently working on **[Oriva](https://github.com/lemix7/Oriva)** with Express and TypeScript. My other projects explore document-based AI and the backend infrastructure for social applications.
-
+```aura width=800 height=260 link="https://github.com/lemix7/Oriva"
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="260" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>ABOUT ME</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Building beyond the interface.</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.6 }}>I’m Ahmad Alosayli, a full-stack developer working with APIs, authentication, data, and AI. Currently building Oriva with Express and TypeScript.</span></div></div>
+```
 
 ```aura width=800 height=240
 <div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
@@ -104,11 +103,17 @@ I'm currently working on **[Oriva](https://github.com/lemix7/Oriva)** with Expre
 <div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>03 / PYTHON / FASTAPI / REST API</span><span style={{ fontSize: 32, fontWeight: 600, color: "white", marginBottom: 12 }}>Scrolla ↗</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.5 }}>Authentication, media uploads, posts, and chronological feeds.</span></div></div>
 ```
 
-### 🔗 Connect
+```aura width=800 height=195 link="https://ahmadalosayli.com"
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>CONNECT / PORTFOLIO</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Explore my work ↗</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.6 }}>ahmadalosayli.com</span></div></div>
+```
 
-Explore my work at **[ahmadalosayli.com](https://ahmadalosayli.com)** or browse my repositories **[on GitHub](https://github.com/lemix7?tab=repositories)**.
-
----
+```aura width=800 height=195 link="https://github.com/lemix7?tab=repositories"
+<div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "32px 40px", width: "100%", height: "100%", background: "#08080d", borderRadius: 20, overflow: "hidden", fontFamily: "Inter, sans-serif", border: "1px solid #202029" }}>
+<svg width="800" height="195" style={{ position: "absolute", top: 0, left: 0 }}><defs><radialGradient id="glow"><stop offset="0%" stopColor="#6cc382" stopOpacity="0.2"/><stop offset="100%" stopColor="#6cc382" stopOpacity="0"/></radialGradient><radialGradient id="violet"><stop offset="0%" stopColor="#c39bff" stopOpacity="0.18"/><stop offset="100%" stopColor="#c39bff" stopOpacity="0"/></radialGradient></defs><ellipse cx="70" cy="180" rx="260" ry="180" fill="url(#glow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="9s" repeatCount="indefinite"/></ellipse><ellipse cx="740" cy="20" rx="240" ry="180" fill="url(#violet)"/></svg>
+<div style={{ position: "relative", display: "flex", flexDirection: "column" }}><span style={{ fontSize: 11, letterSpacing: 4, color: "#a6a6b7", marginBottom: 18 }}>CONNECT / GITHUB</span><span style={{ fontSize: 30, fontWeight: 600, color: "white", marginBottom: 16 }}>Follow the code ↗</span><span style={{ fontSize: 16, color: "#bcbccc", lineHeight: 1.6 }}>Projects, experiments, and what I’m building next.</span></div></div>
+```
 
 ### 📈 Contributions
 
