@@ -1,4 +1,6 @@
 <div align="center">
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/7b47c821-b89c-4929-8d2c-96b877e7976b" />
+
 
 # Hey, I'm Ahmad 👋
 
